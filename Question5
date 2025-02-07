@@ -1,0 +1,39 @@
+//
+//
+//In this document, I will rank six sorting algorithms in order of their expected runtimes,  
+//from fastest to slowest, based on asymptotic analysis.  
+//  
+//1. Merge Sort (O(n log n))
+//   - Merge Sort is an efficient algorithm with a guaranteed runtime of O(n log n).  
+//   - It performs well on large datasets and is stable, but requires additional space for merging.  
+//  
+//2. Quick Sort (O(n log n) on average, O(n²) worst case)
+//   - Quick Sort is often faster in practice due to efficient partitioning.  
+//   - However, its worst-case runtime of O(n²) can occur if poor pivot choices are made.  
+//  
+//3. Heap Sort (O(n log n))  
+//   - Heap Sort has a guaranteed O(n log n) runtime.  
+//   - It does not require extra space but is often slower in practice due to heap operations.  
+//  
+//4. Shell Sort (O(n log n) to O(n²), depending on gap sequence)  
+//   - Shell Sort is better than Insertion Sort because it uses larger initial gaps, reducing swaps.  
+//   - With an optimal gap sequence, it can approach O(n log n), but usually performs worse.  
+//  
+//5. Insertion Sort (O(n²) worst case, O(n) best case for almost completely sorted data)  
+//   - Performs well on small or almost completed sorted lists but is inefficient for large, random lists.  
+//  
+//6. Bubble Sort (O(n²))  
+//   - Bubble Sort is the slowest because it repeatedly swaps adjacent elements.  
+//   - Even with slight improvements, its O(n²) complexity makes it inefficient for large lists.  
+//  
+//Ties:  
+//- Merge Sort, Quick Sort (on average), and Heap Sort all achieve O(n log n) efficiency.  
+//- Insertion Sort and Shell Sort can sometimes perform better than their worst cases,  
+//  but in general, their performance is slower than O(n log n) algorithms.  
+//  
+//In conlcusion, 
+//Fastest algorithms (O(n log n)): Merge Sort, Quick Sort (avg.), Heap Sort.  
+//Slower algorithms (O(n²)): Insertion Sort, Shell Sort, Bubble Sort.  
+//Bubble Sort is the slowest overall.  
+//
+//
