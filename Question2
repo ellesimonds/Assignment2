@@ -1,0 +1,89 @@
+//
+//In this document I will show the step-by-step process of sorting a list
+//using the insertion sort algorithm.
+//The unsorted list is: [-1, -5, 67, -10, 21, 8, 4, 1]
+//
+//
+//First, I will start with the second element, assuming the first element
+//is already sorted.
+//For the first iteration, the key is -5, and the index is 1.
+//Compare -5 with -1, and we will find that -5 is smaller.
+//Because it is smaller, shift -1 to the right.
+//Insert -5 at position 0.
+//The list now looks like this: [-5, -1, 67, -10, 21, 8, 4, 1]
+//
+//
+//Second, we will insert 67 at index 2.
+//Compare 67 with -1, and we will find that 67 is larger.
+//Because it is larger no movement is needed.
+//
+//
+//Third, we will insert -10 at index 3.
+//Compare -10 with 67.
+//Because it is smaller, shift 67 to the right.
+//Compare -10 with -1. 
+//Because it is smaller, shift -5 to the right.
+//Insert -10 at position 0.
+//The list now looks like this: [-10, -5, -1, 67, 21, 8, 4, 1]
+//
+//
+//Fourth, we will insert 21 at index 4.
+//Compare 21 with 67. 
+//Because it is smaller, shift 67 to the right.
+//Compare 21 with -1.
+//Because it is larger, no movement is needed.
+//Insert 21 at position 3.
+//The list now looks like this: [-10, -5, -1, 21, 67, 8, 4, 1]
+//
+//
+//Fifth, we will insert 8 at index 5.
+//Compare 8 with 67.
+//Because it is smaller, shift 67 to the right.
+//Compare 8 with 21.
+//Because it is smaller, shift 21 to the right.
+//Compare 8 with -1.
+//Because it is larger, no movement is needed.
+//Insert 8 at position 3.
+//The list now looks like this: [-10, -5, -1, 8, 21, 67, 4, 1]
+//
+//
+//Sixth, we will insert 4 at index 6.
+//Compare 4 with 67. 
+//Because it is smaller, shift 67 to the right.
+//Compare 4 with 21. 
+//Because it is smaller, shift 21 to the right.
+//Compare 4 with 8.
+//Because it is smaller, shift 8 to the right.
+//Compare 4 with -1.
+//Because it is smaller, no movement is needed.
+//Insert 4 at position 3.
+//The list now looks like this: [-10, -5, -1, 4, 8, 21, 67, 1]
+//
+//
+//Seventh, we will insert 1 at index 7.
+//Compare 1 with 67.
+//Because it is smaller, shift 67 to the right.
+//Compare 1 with 21.
+//Because it is smaller, shift 21 to the right.
+//Compare 1 with 8.
+//Because it is smaller, shift 8 to the right.
+//Compare 1 with 4.
+//Because it is smaller, shift 4 to the right.
+//Compare 1 with -1.
+//Because it is larger, no movement is needed.
+//Insert 1 at position 3.
+//The list now looks like this: [-10, -5, -1, 1, 4, 8, 21, 67]
+//
+//
+//Since there are no more values to sort through, the list has fully been sorted
+//with insertion sort.
+//
+//
+
+
+
+
+
+
+
+
